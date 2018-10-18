@@ -4,13 +4,13 @@
 					
 					// Bubble Sort C-Program
 #include <stdio.h>
-#define max 10
+#define max 10	#defining the size of max array
 
 int main()
 {
-	int temp;
+	int t;	//creating a temporary Varibale for storing the intermediate result
 	int n;
-	printf("\nDon't Exceed than 10\n");
+	printf("\nDon't Exceed than 10\n");	//showing Message 
 	printf("\nEnter The Number: ");
 	scanf("\n%d",&n);
 	int arr[max];
@@ -26,9 +26,9 @@ int main()
 		{
 			if(arr[j]>arr[j+1])	
 			{
-				temp=arr[j];
+				t=arr[j];
 				arr[i]=arr[j+1];
-				arr[j+1]=temp;
+				arr[j+1]=t;
 			}
 		}
 	}
