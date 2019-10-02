@@ -4,7 +4,7 @@
 					
 					// QuickSort C-Program
 #include<stdio.h>
-
+// helper function
 void swap(int* a, int* b)
 {
     int t = *a;
