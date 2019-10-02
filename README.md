@@ -1,5 +1,5 @@
 			                        	<BoRiNG_CoDE>
-			                          	@A_A TEch
+			                          	@A_A Tech
 				
 			
 		Use this Repository(Sorting) for Sorting Algorthims program which are  implemeted in 
