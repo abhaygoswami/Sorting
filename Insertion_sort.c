@@ -4,7 +4,7 @@
 					
 					// Insertion Sort C-Program
 #include<stdio.h>
-void insertion_sort(int arr[],int n);
+void insertion_sort(int arr[],int n); //helper function
 int main()
 {
 	int arr[20],n;
