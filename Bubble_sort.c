@@ -2,7 +2,8 @@
 					//@Author: Abhay Goswami
 					
 					
-					// Bubble Sort C-Program
+// Bubble Sort C-Program
+
 #include <stdio.h>
 #define max 10
 
@@ -18,7 +19,7 @@ int main()
 	for(int i=0;i<n;i++)
 		scanf("\n%d",&arr[i]);
 	
-	//Bubble sort
+//Bubble sort
 	
 	for(int i=0;i<n;i++)
 	{
@@ -33,7 +34,7 @@ int main()
 		}
 	}
 	
-	//print the sequence in increasing order
+//Print the sequence in increasing order
 	for(int i=0;i<n;i++)
 		printf("\n%d",arr[i]);
 	return 0;
