@@ -38,3 +38,4 @@ void insertion_sort(int arr[],int n)
 		arr[hole]=value;
 	}
 }
+// Anyone can make PR for the same 
