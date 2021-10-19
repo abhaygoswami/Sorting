@@ -7,9 +7,11 @@
 void insertion_sort(int arr[],int n); //helper function
 int main()
 {
-	int arr[20],n;
+	int n;
 	printf("\nEnter The Size of array: ");
 	scanf("\n%d",&n);
+	// Array of size n
+	int arr[n];
 	//scanning the elements
 	printf("\nEnter The Elements of Array: \n");
 	for(int i=0;i<n;i++)
